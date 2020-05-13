@@ -1,0 +1,89 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+h1{
+   color: #000000;
+   font-size: 40px ;
+   text-decoration: none;
+   text-align: center;
+   font-family: Rale; 
+   font-weight: bold;
+
+}
+button a h3{
+   color: #ffffff;
+   font-size: 15px ;
+   text-decoration: none;
+   text-align: center;
+   font-family: Rale; 
+}
+div a{
+   color: #ffffff;
+   font-size: 20px ;
+   text-decoration: none;
+   font-family: Rale; 
+}
+
+header{
+   width: 100%;
+   background: cornflowerblue;
+   height: 70px;
+}
+.ancho{
+   width: 80%;
+   height: 70px;
+   margin: auto;
+}
+
+.logo{
+   width: 30%;
+   height: 70px;
+   /*background: cyan;*/
+   float: left;
+   padding: 10px;
+   font-weight: bold;
+   box-sizing: border-box;
+}
+
+.logo p a{
+   color: #ffffff;
+   font-size: 40px ;
+   text-decoration: none;
+   font-family: Rale;
+}
+nav{
+   width: 70%;
+   height: 70px;
+ /*  background: darkgray;*/
+   float: left;
+   text-align: right;
+   padding-top: 24px;
+   box-sizing: border-box;
+}
+
+nav ul li{
+   display: inline;
+}
+
+nav ul li a{
+   color: #ffffff;
+   font-size: 13px;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding-left: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   font-family: Rale;
+}
+
+nav ul li a:hover{
+   color: black;
+}
+
+@font-face{
+   font-family: Rale;
+   src: url(../fuentes/Raleway-Regular.ttf);
+}
+
